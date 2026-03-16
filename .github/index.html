@@ -6,14 +6,13 @@
     <style>
         body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 1000px; margin: 0 auto; padding: 20px; background-color: #f9f9f9; }
         header { text-align: center; padding: 40px 0; background: #0078d4; color: white; border-radius: 8px; margin-bottom: 30px; }
-        .intro-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
-        .card { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); border-top: 5px solid #0078d4; }
         .diff-table { width: 100%; border-collapse: collapse; margin: 20px 0; background: white; }
         .diff-table th, .diff-table td { border: 1px solid #ddd; padding: 12px; text-align: left; }
         .diff-table th { background-color: #f2f2f2; }
-        .nav-box { display: flex; justify-content: space-around; margin-top: 40px; }
-        .nav-btn { text-decoration: none; background: #2b88d8; color: white; padding: 15px 30px; border-radius: 50px; font-weight: bold; transition: 0.3s; }
-        .nav-btn:hover { background: #005a9e; transform: translateY(-3px); }
+        .nav-box { display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; margin-top: 40px; }
+        .nav-btn { text-decoration: none; background: #2b88d8; color: white; padding: 12px 25px; border-radius: 50px; font-weight: bold; transition: 0.3s; }
+        .nav-btn.skill { background: #28a745; } /* 技能樹使用綠色區分 */
+        .nav-btn:hover { opacity: 0.8; transform: translateY(-3px); }
     </style>
 </head>
 <body>
@@ -54,11 +53,12 @@
 </section>
 
 <section style="margin-top: 40px;">
-    <h2>微軟專業認證指南</h2>
-    <p>微軟將認證分為兩大主要體系，幫助你針對特定職位進行強化：</p>
+    <h2>微軟專業認證與個人專業</h2>
+    <p>請選擇下方連結查看詳細資訊：</p>
     <div class="nav-box">
         <a href="pl.htm" class="nav-btn">探索 PL 系列 (商業應用)</a>
         <a href="dp.htm" class="nav-btn">探索 DP 系列 (資料運作)</a>
+        <a href="skill.htm" class="nav-btn skill">查看：個人技能樹</a>
     </div>
 </section>
 
